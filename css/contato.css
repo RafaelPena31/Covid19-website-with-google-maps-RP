@@ -1,0 +1,87 @@
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+body{
+    background: #ffffff;
+}
+#contact{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+#contactTit{
+    font-family: nunito;
+    color: #ffffff;
+    margin-bottom: 3%;
+}
+#leftContact{
+    background-color: #ffffff;
+    width: 50%;
+    height: auto;
+    color: #0c326f;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 2%;
+}
+#leftContact a{
+    width: 100%;
+}
+#leftContact iframe{
+    width: 95%;
+    height: 50vh;
+    border-radius: 15PT;
+}
+.tit{
+    flex-flow: column;
+    font-family: nunito;
+    color: #0e0e0e;
+    margin-bottom: 1vh;
+}
+.tit h1{
+    font-size: 22pt;
+}
+#rightContact{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 15pt;
+}
+#rightContact img{
+    width: 30px;
+    height: 30px;
+}
+.containerContact{
+    width: 100%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#dashboard{
+    padding: 0;
+    font-family: nunito;
+}
+#icon-menu{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#container-principal{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+@media only screen and (max-width: 768px){
+    #contact{
+        flex-flow: column;
+    }
+    #rightContact{
+        width: 100%;
+    }
+    #leftContact{
+        width: 100%;
+    }
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */

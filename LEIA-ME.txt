@@ -1,0 +1,12 @@
+<!-- WELCOME TO MY CODE - @RAFAEL_AUGUSTO_PENA - THE CODE HAS DEVELOPMENT AS A PORTFOLIO, 
+    EDUCATION, WORK AMONG OTHERS. :D ENJOY, BE HAPPY AND USE ALCOHOL IN GEL AND MASK :) 
+BRAZIL - E-MAIL: RAFAELPPENA31@GMAIL.COM - LINKEDIN: https://www.linkedin.com/in/rafael-augusto-pena/ -->
+
+Bem vindo ao meu código, me chamo Rafael e sou dev frontEnd - rafaelppena31@gmail.com
+Este site do Central Brasil-COVID RP é mais um site portfólio desenvolvido do zero.
+
+Caso seja necessário entrar em contato comigo:
+rafaelpena.surge.sh
+http://rafaelpena.surge.sh/portifolio/central_covid_brasil_RP/index.html
+
+Sejam felizes, usem máscaras, passem álcool em gél e se cuidem :D!!

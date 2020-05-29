@@ -1,0 +1,103 @@
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+/* Start default */
+body {
+    margin: 0;
+    background: rgb(6,6,101);
+    background: linear-gradient(90deg, #060665 1%, #690202 70%, #8e0000 100%); 
+    background-repeat: no-repeat;
+    height: auto;
+}
+/* End default */
+/* Start map */
+#map {
+    height: 80vh;
+    width: 95vw;
+    position: relative;
+    border-radius: 15pt;
+}
+#map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End map */
+/* Start dash */
+.container-dash{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+#titleDash{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin: 1vw;
+}
+.itens{
+    margin: 4vw;
+    border-right: 1px solid #ffffff;
+}
+#dashboard h1{
+    font-family: nunito;
+    text-align: center;
+}
+#dashboard h2{
+    font-family: nunito;
+    text-align: center;
+    font-size: 15pt;
+}
+#h2-dash{
+    border-top: 1px solid #ffffff;
+    margin-top: 4%;
+    text-align: center;
+}
+#dashboard{
+    width: 90vw;
+    height: auto;
+    margin-top: 2%;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    background: linear-gradient(90deg, #242424 54%, #303030 87%);
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.596), 0 6px 20px 0 rgba(0, 0, 0, 0.541);
+}
+#dashItensBr{
+    display: none;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#dashItensCt{
+    display: none;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#btn select{
+    font-size: 14pt;
+    height: auto;
+    padding: 0.7vh;
+    font-family: nunito;
+    border: 0;
+    width: 170px;
+    margin-right: 2vw;
+    border-radius: 15pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.685), 0 6px 20px 0 rgba(0, 0, 0, 0.678);
+    transition: 0.5s;
+}
+#btn select:hover{
+    width: 200px;
+    padding: 1vh;
+    font-size: 16pt;
+    border-radius: 25pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719), 0 6px 20px 0 rgba(255, 255, 255, 0.438);
+}
+/* End dash */
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */

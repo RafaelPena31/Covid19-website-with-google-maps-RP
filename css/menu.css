@@ -1,0 +1,197 @@
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+/* Menu Right PC */
+#div-plus-btn{
+    position: fixed;
+    right: 0;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    background-color: #8e0000;
+    width: 70px;
+    height: 70px;
+    margin: 1%;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    margin-top: 20%;
+    font-size: 60pt;
+    font-weight: bolder;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transition-property: all;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    transition-timing-function: ease;
+    
+}
+#plus-icon-open:hover{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    transform: rotate(180deg);
+}
+#div-plus-btn:hover{
+    margin-top: 2%;
+    justify-content: flex-end;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    border-radius: 5pt;
+    height: auto;
+    width: 85px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    background-color: #F7F7F7;
+    color: #8e0000;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+}
+#ul-menu-right{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#plus-icon-span{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    margin: 0;
+    color: #F7F7F7;
+    width: 70px;
+    height: 40px;
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+#plus-icon-open{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    height: 100px;
+    background-color: #360101;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: inset 10px 10px 15px -16px rgba(255,255,255,1);
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    -moz-box-shadow: inset 10px 10px 15px -16px rgba(255,255,255,1);
+    box-shadow: inset 10px 10px 15px -16px rgba(255,255,255,1);
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    transition: transform 0.3s;
+}
+
+#link-menu-icon{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    color: #F7F7F7;
+    text-decoration: none;
+}
+/* End Menu PC */
+
+/* Start Mobile */
+#menu-mobile{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1vh ;
+}
+#ballPrincipal{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    height: 75px;
+    background-color: #680000;
+    color: #f7f7f7;
+    font-size: 60pt;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    font-weight: bolder;
+    border-radius: 50%;
+    border-radius: 50%;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030;
+    -webkit-box-shadow: inset 10px 10px 15px -14px rgba(255,255,255,1);
+    -moz-box-shadow: inset 10px 10px 15px -14px rgba(255,255,255,1);
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    box-shadow: inset 10px 10px 15px -14px rgba(255,255,255,1);
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+}
+#plus-mobile{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: flex;
+    justify-content: center;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    align-items: center;
+    transition:transform 0.7s;
+}
+#plus-mobile:hover{
+    transform: rotate(180deg);
+}
+#itens-mobile{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: none;
+    justify-content: center;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    align-items: center;
+    animation: fade 0.3s;
+    margin-bottom: 1vh;
+}
+@keyframes fade {
+    0%{opacity: 0;
+    }
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    50%{opacity: 0.5;
+    }
+    100%{opacity: 1;
+    }
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+  }
+#itens-mobile span{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 1vh;
+    margin-left: 1vh;
+    margin-bottom: 3%;
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+.img-menu-mobile1{
+    width: 40px;
+    height: 40px;
+}
+.img-menu-mobile2{
+    width: 45px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    height: 45px;
+}
+/* End Mobile */
+
+@media only screen and (max-width: 768px){
+    #div-plus-btn{
+        display: none;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    }
+    #menu-mobile{
+        display: flex;
+    }
+    #ballPrincipal{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+        display: flex;
+    }
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */

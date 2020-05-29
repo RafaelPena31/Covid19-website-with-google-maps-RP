@@ -1,0 +1,154 @@
+<!-- COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA -->
+<!-- THE SCRIPT CODE HAS YOUR RIGHTS RESERVED TO GOOGLE INC (RESPONSIBLE FOR THE USED API), THE TRACKCORONA.LIVE WEBSITE 
+(FOR THE API THAT PROVIDES DATA UPDATE), COVID19 BRAZIL API WEBSITE (FOR THE API THAT PROVIDES DATA UPDATE)
+ AND THE DEVELOPER @RAFAEL_AUGUSTO_PENA FOR CODE HANDLING  -->
+<!DOCTYPE html>
+<!-- WELCOME TO MY CODE - @RAFAEL_AUGUSTO_PENA - THE CODE HAS DEVELOPMENT AS A PORTFOLIO, 
+    EDUCATION, WORK AMONG OTHERS. :D ENJOY, BE HAPPY AND USE ALCOHOL IN GEL AND MASK :) -->
+<!-- BRAZIL - E-MAIL: RAFAELPPENA31@GMAIL.COM - LINKEDIN: https://www.linkedin.com/in/rafael-augusto-pena/ -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssMapa/mapa.css">
+    <link rel="stylesheet" href="css/fontes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/covid.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/sintomas.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="imagem/png" href="img/icon/global.png">
+    <title>Covid-Radar - RP</title>
+</head>
+
+<body>
+    <a href="index.html">
+        <div id="logo">
+            <img src="img/icon/global.png" alt="" id="img-logo">
+            <span>Central Covid-Brasil</span>
+        </div>
+    </a>
+    <div id="container-covid">
+        <!-- Start header -->
+        <header id="header">
+            <!-- Start icons -->
+            <div id="icon-menu">
+                <ul id="inicio">
+                    <li class="class-li-logo"><a href="https://www.instagram.com/_rafael_pena_/"><img src="img/logoinsta.png" alt="" class="img-logo"></a></li>
+                    <li class="class-li-logo"><a href="https://www.facebook.com/rafael.pena.946"><img src="img/logo-facebook-png-branca-5.png" alt=""
+                                class="img-logo"></a></li>
+                    <li class="class-li-logo"><a href="https://www.linkedin.com/in/rafael-augusto-pena/"><img src="img/linkedinlogo.png" alt="" class="img-logo"></a>
+                    </li>
+                    <li class="class-li-logo"><a href="https://github.com/RafaelPena31"><img src="img/logoGit.png" alt="" class="img-logo"></a></li>
+                </ul>
+            </div>
+        </header>
+        <div>
+            <div id="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <div class="line-div" id="line-div">
+            <hr class="line" id="lineP">
+        </div>
+        <div class="tit">
+            <h1 id="titWHITE">COVID-RADAR - RP</h1>
+        </div>
+    </div>
+    <nav>
+        <!-- Menu Mobile Start -->
+        <div id="menu-mobile">
+            <nav id="itens-mobile">
+                <span><a href="index.html"><img src="img/icon/home.png" alt="" class="img-menu-mobile1"></a></span>
+                <span><a href="sintoma.html"><img src="img/icon/perfil.png" alt="" class="img-menu-mobile1"></a></span>
+                <span><a href="mapa.html"><img src="img/icon/map.png" alt="" class="img-menu-mobile2"></a></span>
+                <span><a href="contato.html"><img src="img/icon/pandemic.png" alt="" class="img-menu-mobile2"></a></span>
+            </nav>
+            <ul>
+                <li id="plus-mobile">
+                    <span id="ballPrincipal" onclick="openMobi()">
+                        +
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <!-- Menu Mobile End -->
+    </nav>
+    <article class="container-dash">
+        <div id="dashboard">
+            <div id="titleDash">
+                <h1>COVID pelo mundo</h1>
+            </div>
+            <div id="h2-dash">
+                <h2>Clique para visualizar Informações sobre casos no Brasil</h2>
+            </div>
+            <div id="dashItensBr">
+
+            </div>
+            <div id="btn">
+                <button id="btn-form" onclick="br()">Casos Brasil</button>
+            </div>
+            <div id="h2-dash">
+                <h2>Clique para visualizar Informações sobre cada país</h2>
+                <h4>Por padrão, o nome dos países estão em inglês</h4>
+            </div>
+            <div id="dashItensCt">
+                <div class="itens">
+                    <h1 id="stateD">State</h1>
+                    <p>
+                        <h2>Confirmados:</h2>
+                        <span id="confirmD">0</span>
+                        <h2>Falecidos:</h2>
+                        <span id="faleD">0</span>
+                        <h2>Atualização:</h2>
+                        <span id="atualD">0</span>
+                    </p>
+                </div>
+
+            </div>
+            <div id="btn">
+                <select id="selectDash">
+                    <option value="0">Selecione o país</option>
+                </select>
+                    <button id="btn-form" onclick="ct()" name="btn2">
+                        <span id="btn2">
+                            Casos Mundo
+                        </span>
+                    </button>
+            </div>
+        </div>
+    </article>
+    <footer class="footer-container">
+        <div class="footer-right">
+            <a href="#"><img src="img/logoinsta.png" alt="" class="img-logo"></a>
+            <a href="#"><img src="img/logo-facebook-png-branca-5.png" alt="" class="img-logo"></a>
+            <a href="#"><img src="img/linkedinlogo.png" alt="" class="img-logo"></a>
+            <a href="#"><img src="img/logoGit.png" alt="" class="img-logo"></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="index.html">Home</a>
+                <a href="covid.html">Informações sobre o COVID-19</a>
+                <a href="sintoma.html">Sintomas</a>
+                <a href="mapa.html">Sistema - COVID Radar</a>
+                <a href="http://rafaelpena.surge.sh/sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </p>
+            <p>Rafael Augusto Pena &copy; 2020</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/map-covid-rafael-pena.js"></script>
+    <!-- COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ7VvtfKd5ucuzpW1SU4u-b6kIAv8PbPk&callback=initMap">
+        </script>
+    <script src="js/animation.js"></script>
+    <script src="js/info.js"></script>
+</body>
+
+</html>
+<!-- COPYRIGHT CONTENT - IMAGES, LOGOS AND ICONS HAVE YOUR RIGHTS WITH RESPECT TO THE COMPANIES THAT CREATED -->

@@ -1,0 +1,161 @@
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+/* Config inicial */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    }
+    body::-webkit-scrollbar {
+        width: 10px;
+   } 
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+   body::-webkit-scrollbar-thumb {   
+   background-color: #940000;   
+   border-radius: 10px;
+   }
+ul{
+    list-style: none;
+}
+a{
+    color: #F7F7F7;
+}
+h2{
+    font-family: nunito;
+}
+/* End init */
+/* Start IDs */
+    #logo{
+        display: flex;
+        justify-content: center;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+        align-items: center;
+        position: absolute;
+        right: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#F7F7F7;
+        font-size: 11pt;
+        margin: 1%;
+        margin-top:1.5vh;
+        margin-bottom: 4%;
+    }
+    #img-logo{
+        width: 35px;
+        height: 35px;   
+        margin-right: 0.5vw; 
+    }
+    #container{
+        display: flex;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+        flex-flow: column ;
+        height: 100%;
+    }
+    #header{
+        background: rgb(6,6,101);
+        background: linear-gradient(90deg, #060665 1%, #690202 70%, #8e0000 100%); 
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    #icon-menu{
+        margin-top: 1.5vh; margin-bottom: 1.5vh;
+        margin-left: 2vw;
+    }
+    #slider-menu{
+        position: fixed;
+        left: 0;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        margin-top: 2%;
+    }
+    #ul-menu-principal{
+        list-style: none;
+    }
+    #article1{
+        background: rgb(6,6,101);
+        background: linear-gradient(90deg, #060665 1%, #690202 70%, #8e0000 100%); 
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    
+    
+/* End IDs */
+/* Start Class */
+.img-logo{
+    width: 18px;
+    height: 18px;
+}
+.class-li-logo{
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 0.75%;
+}
+.slider-menu-principal{
+    width: 25px;
+    height: 5px;
+    border-radius: 10pt;
+    background-color: #F7F7F7;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    margin: 1vh;
+}
+.img-menu-right1{
+    width: 50px;
+    height: 50px;
+}
+.img-menu-right1:hover{
+    width: 65px;
+    height: 65px;
+}
+.img-menu-right2{
+    width: 65px;
+    height: 65px;
+}
+.img-menu-right2:hover{
+    width: 80px;
+    height: 80px;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+}
+.line{
+    width: 85vw;
+    background-color: #940000;
+    color: #940000;;
+}
+.line-div{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Class */
+@media only screen and (max-width: 768px){
+    #container{
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+        padding: 0;
+    }
+    #icon-menu{
+        margin: 3%;
+    }
+    #slider-menu{
+        display: none;
+    }
+    #logo{
+        font-size: 8pt;
+    }
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    #img-logo{
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */

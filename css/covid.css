@@ -1,0 +1,119 @@
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+#container-covid{
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    background: #060665;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    background: linear-gradient(90deg, #060665 1%, #690202 70%, #8e0000 100%); 
+    background-repeat: no-repeat;
+    margin-bottom: 2vh;
+}
+#lineP{
+    width: 50%;
+    background-color: #fff;
+}
+#line-div{
+    margin: 0;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+}
+.tit-red{
+    color: #0c326f;
+}
+#line-red{
+    background-color: #0d1727;
+    height: 1px;
+}
+.line-article{
+    background-color: #0d1727;
+    width: 40%;
+    height: 1px;
+}
+.tit{
+    display: flex;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+.tit h1{
+   /*  color: #f7f7f7; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin:2%;
+    margin-bottom: 0;
+}
+#titWHITE{
+    color: #f7f7f7;
+}
+.article-info{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 12pt;
+    font-family: nunito;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    letter-spacing: 1px;
+    line-height: 3.5vh;
+}
+.article-info p{
+    margin-top: 2vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: left;
+    font-size: 12pt;
+}
+.img{
+    width: 50%;
+    margin-left: 3%;
+}
+.img2{
+    width: 40%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+.textGeneral{
+    display: flex;
+    flex-flow: column;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    justify-content: center;
+    text-align: left;
+    margin: 6%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textGeneral p{
+    text-align: left;
+    font-size: 12pt;
+    margin: 0;
+}
+.textGeneral ul{
+    list-style: disc;
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    margin:1%
+}
+.textGeneral-li{
+    margin:3%
+}
+#end{
+    margin-bottom: 3%;
+}
+@media only screen and (max-width: 768px){
+    .article-info{
+        flex-flow: column;
+    }
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
+    .img{
+        width: 90%;
+        margin:0;
+    }
+    .img2{
+        width: 90%;
+        margin:0;
+        margin-top: 2vh;
+    }
+}
+/* COPYRIGHT CONTENT - ALL DEVELOPER RIGHTS RESERVED TO @RAFAEL_AUGUSTO_PENA_PEREIRA_MESQUITA  */
